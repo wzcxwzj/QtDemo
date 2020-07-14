@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\widget.o
+./release\basewindow.o
+./release\mytitlebar.o
+./release\myqfilemodel.o
+./release\threadOpation.o
+./release\moc_widget.o
+./release\moc_basewindow.o
+./release\moc_mytitlebar.o
+./release\moc_threadOpation.o
+);

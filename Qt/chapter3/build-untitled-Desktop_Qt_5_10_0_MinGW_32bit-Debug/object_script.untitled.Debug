@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\widget.o
+./debug\basewindow.o
+./debug\mytitlebar.o
+./debug\myqfilemodel.o
+./debug\threadOpation.o
+./debug\moc_widget.o
+./debug\moc_basewindow.o
+./debug\moc_mytitlebar.o
+./debug\moc_threadOpation.o
+);
