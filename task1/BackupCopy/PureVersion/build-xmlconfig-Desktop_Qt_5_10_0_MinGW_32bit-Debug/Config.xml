@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WinnetConfig>
+    <SplitServerIp>192.168.1.168</SplitServerIp>
+    <SplitServerPort>499299</SplitServerPort>
+    <Uid>1</Uid>
+    <Sid>1</Sid>
+    <ServerUrl>ws://192.168.8.174:3000/</ServerUrl>
+    <User>admin1</User>
+    <Pwd>123456</Pwd>
+    <Rember>false</Rember>
+    <OtherControl>false</OtherControl>
+    <UpScreen>true</UpScreen>
+    <Colunm>2</Colunm>
+    <Row>2</Row>
+    <MaxFrame>30</MaxFrame>
+    <MaxWinCount>6</MaxWinCount>
+    <MaxFullFrameWinCount>6</MaxFullFrameWinCount>
+    <UpScreenIsConfig>true7</UpScreenIsConfig>
+    <ScreenTransfer>false</ScreenTransfer>
+    <CameraSpeed/>
+</WinnetConfig>
