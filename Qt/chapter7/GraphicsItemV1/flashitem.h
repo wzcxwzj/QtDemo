@@ -1,0 +1,22 @@
+#ifndef FLASHITEM_H
+#define FLASHITEM_H
+
+#include <QObject>
+#include <QGraphicsItem>
+#include <QPainter>
+
+
+class FlashItem :public QObject,public QGraphicsItem
+{
+
+public:
+    FlashItem();
+    QRectF boundingRect() const;
+    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+    void timerEvent(QTimerEvent *event);
+private:
+    bool flash;
+    QTimer *timer;
+};
+
+#endif // FLASHITEM_H
