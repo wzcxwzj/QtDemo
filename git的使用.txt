@@ -1,3 +1,6 @@
+ bbs.theithome.com
+
+http://bbs.theithome.com/read-htm-tid-123.html
 
 	git init
 	
@@ -13,10 +16,16 @@
 建立新仓库时使用以下命令:
 	git pull origin master --allow-unrelated-histories
 
-大文件传输失败:
+报错:
+
+1.大文件传输失败:
  	git file-branch -f --index-filter 'git rm --cached --ignore-unmatch 文件名'
 
 
-hint: Updates were rejected because the remote contains work that you do 解决方法
+2.hint: Updates were rejected because the remote contains work that you do 解决方法
 参考以下url：
 	https://www.cnblogs.com/weballen/p/12910469.html
+
+3.error: The following untracked working tree files would be overwritten by me
+参考以下url:
+	https://www.cnblogs.com/ryxiong-blog/p/11269066.html
